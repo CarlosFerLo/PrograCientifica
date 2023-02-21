@@ -16,7 +16,7 @@ int main (void) {
 
 	for (i = 0, cont = 0; i < M; i++) {
 		for (j = 0; j < n; j++) {
-			hist[j] = rand() % 364 + 1 ;
+			hist[j] = rand() % 365 + 1 ;
 			if (includes(hist[j], j, hist)) {
 				cont += 1 ;
 				break ;
